@@ -15,3 +15,9 @@ git remote remove origin
 ```bash
 git remote add origin <url>
 ```
+
+### Stage any changes and push to replaced remote
+```bash
+git remote add origin <url>
+git push --set-upstream origin main
+```
